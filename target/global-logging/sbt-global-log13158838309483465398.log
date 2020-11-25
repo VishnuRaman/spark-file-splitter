@@ -1,0 +1,115 @@
+[debug] > Exec(;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers resolveSbtClassifiers" ;*/*:dumpStructureTo C:/Users/vishn/AppData/Local/Temp/sbt-structure.xml; session clear-all ; set ideaPort in Global := 64561, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.2 (Oracle Corporation Java 15.0.1)
+[debug]       Load.loadUnit: plugins took 14.403ms
+[debug]       Load.loadUnit: defsScala took 0.0059ms
+[debug] [Loading] Scanning directory C:\Users\vishn\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\vishn\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.3537 ms
+[debug]           Load.resolveProject(global-plugins) took 0.7943ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\vishn\.sbt\1.0\plugins, plugins: List(<none>))) took 2.4832ms
+[debug] [Loading] Done in C:\Users\vishn\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 3.3254ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.0063ms
+[debug]     Load.loadUnit(file:/C:/Users/vishn/.sbt/1.0/plugins/, ...) took 18.4687ms
+[debug]   Load.apply: load took 19.3834ms
+[debug]   Load.apply: resolveProjects took 0.0785ms
+[debug]   Load.apply: finalTransforms took 5.314ms
+[debug]   Load.apply: config.delegates took 0.2694ms
+[debug]   Load.apply: Def.make(settings)... took 38.6606ms
+[debug]   Load.apply: structureIndex took 13.3222ms
+[debug]   Load.apply: mkStreams took 0.0024ms
+[info] loading global plugins from C:\Users\vishn\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 324.9847ms
+[debug]           Load.loadUnit: plugins took 16.477ms
+[debug]           Load.loadUnit: defsScala took 0.0035ms
+[debug] [Loading] Scanning directory C:\Users\vishn\IdeaProjects\spark-file-splitter\project
+[debug]             Load.loadUnit: mkEval took 0.2522ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\vishn\IdeaProjects\spark-file-splitter\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.9882 ms
+[info] loading settings for project spark-file-splitter-build from idea.sbt ...
+[debug]               Load.resolveProject(spark-file-splitter-build) took 15.7257ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id spark-file-splitter-build, base: C:\Users\vishn\IdeaProjects\spark-file-splitter\project, plugins: List(<none>))) took 17.0628ms
+[debug] [Loading] Done in C:\Users\vishn\IdeaProjects\spark-file-splitter\project, returning: (spark-file-splitter-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 29.1609ms
+[debug]           Load.loadUnit: cleanEvalClasses took 2.1861ms
+[debug]         Load.loadUnit(file:/C:/Users/vishn/IdeaProjects/spark-file-splitter/project/, ...) took 48.3846ms
+[debug]       Load.apply: load took 49.529ms
+[debug]       Load.apply: resolveProjects took 0.0944ms
+[debug]       Load.apply: finalTransforms took 5.0825ms
+[debug]       Load.apply: config.delegates took 0.1702ms
+[debug]       Load.apply: Def.make(settings)... took 49.2467ms
+[debug]       Load.apply: structureIndex took 12.2126ms
+[debug]       Load.apply: mkStreams took 0.0022ms
+[info] loading project definition from C:\Users\vishn\IdeaProjects\spark-file-splitter\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 309.714ms
+[debug]     Load.loadUnit: defsScala took 0.0031ms
+[debug] [Loading] Scanning directory C:\Users\vishn\IdeaProjects\spark-file-splitter
+[debug]       Load.loadUnit: mkEval took 0.3211ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\vishn\IdeaProjects\spark-file-splitter, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin))), Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 1.8989 ms
+[info] loading settings for project spark-file-splitter from build.sbt ...
+[debug]         Load.resolveProject(spark-file-splitter) took 22.2797ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id spark-file-splitter, base: C:\Users\vishn\IdeaProjects\spark-file-splitter, plugins: List(<none>))) took 24.7554ms
+[debug] [Loading] Done in C:\Users\vishn\IdeaProjects\spark-file-splitter, returning: (spark-file-splitter)
+[debug]     Load.loadUnit: loadedProjectsRaw took 77.2993ms
+[debug]     Load.loadUnit: cleanEvalClasses took 10.9046ms
+[debug]   Load.loadUnit(file:/C:/Users/vishn/IdeaProjects/spark-file-splitter/, ...) took 398.4942ms
+[debug] Load.apply: load took 399.5715ms
+[debug] Load.apply: resolveProjects took 0.0743ms
+[debug] Load.apply: finalTransforms took 10.8239ms
+[debug] Load.apply: config.delegates took 0.1685ms
+[debug] Load.apply: Def.make(settings)... took 37.2424ms
+[debug] Load.apply: structureIndex took 12.2172ms
+[debug] Load.apply: mkStreams took 0.0023ms
+[warn] Discarding 1 session setting.  Use 'session save' to persist session settings.
+[info] set current project to spark-file-splitter (in build file:/C:/Users/vishn/IdeaProjects/spark-file-splitter/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers resolveSbtClassifiers", None, None)
+[info] Defining Global / sbtStructureOptions
+[info] The new value will be used by Global / ssOptions
+[debug] Defining 
+[debug] 	Global / sbtStructureOptions
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Global / ssOptions
+[info] Reapplying settings...
+[info] set current project to spark-file-splitter (in build file:/C:/Users/vishn/IdeaProjects/spark-file-splitter/)
+[debug] > Exec(*/*:dumpStructureTo C:/Users/vishn/AppData/Local/Temp/sbt-structure.xml, None, None)
+[debug] Evaluating tasks: Global / dumpStructureTo
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] Writing structure to C:\Users\vishn\AppData\Local\Temp\sbt-structure.xml...
+[info] Done.
+[success] Total time: 2 s, completed 23 Nov 2020, 14:59:04
+[debug] > Exec(session clear-all, None, None)
+[info] Reapplying settings...
+[info] set current project to spark-file-splitter (in build file:/C:/Users/vishn/IdeaProjects/spark-file-splitter/)
+[debug] > Exec(set ideaPort in Global := 64561, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to spark-file-splitter (in build file:/C:/Users/vishn/IdeaProjects/spark-file-splitter/)
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

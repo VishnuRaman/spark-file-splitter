@@ -5,14 +5,14 @@ import org.scalatest.BeforeAndAfterAll
 import org.scalatest.funsuite.AnyFunSuite
 import org.scalatest.matchers.should.Matchers
 
-trait SparkTest extends AnyFunSuite with BeforeAndAfterAll with Matchers {
+class SparkTest extends AnyFunSuite with BeforeAndAfterAll with Matchers {
   var ss: SparkSession = _
   var sc: SparkContext = _
   var sqlContext: SQLContext = _
 
   override def beforeAll(): Unit = {
     val master = "local[*]"
-    val appName = "MyApp"
+    val appName = "SparkFileSplitterTest"
     val conf: SparkConf = new SparkConf()
       .setMaster(master)
       .setAppName(appName)
@@ -32,6 +32,10 @@ trait SparkTest extends AnyFunSuite with BeforeAndAfterAll with Matchers {
   }
 
   test("reading simple file"){
+    val IO = new IOServices()
+    implicit val fs = IO.getFileSystem()
+    val prop = IO.readPropertyFile("src/test/resources/test_config.properties")
+    prop.size() shouldBe 2
 
   }
 }
